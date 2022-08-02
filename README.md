@@ -8,6 +8,6 @@ In this project, customer churn of a mobile phone operator ([dataset](https://ww
 
 - `hyperparameter_tuning.ipynb` : Hyperparameter optimisation of XGBoost model is automated by using AWS Sagemaker "Hyperparameter Tuning Jobs" in this notebook. Model with the best evalution metrics is saved for deployment.
 
-- `model_batch_job_&_eval.ipynb` : A "Batch Transform Job" of Sagemaker is created using the previously best trained model and evaluated using the test set. Cutoff Threshold was varied to see how the confusion matrix varies. A cost function of binary predictions was assumed to choose the optimal cutoff that has lowest financial cost.
+- `model_batch_job_&_eval.ipynb` : A "Batch Transform Job" of Sagemaker is created using the previously best trained model and evaluated using the test set. Cutoff Threshold was varied to see how the confusion matrix varies. A cost function of binary predictions was assumed to choose the optimal cutoff that has the lowest financial cost.
 
 
